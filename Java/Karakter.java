@@ -19,7 +19,7 @@ public class Karakter {
     void saldır(String a)throws InterruptedException{  
         
         switch(a){
-            case "goblinKing":
+            case "greatGoblin":
                 break;
             case "ustGoblin":
                 break;
@@ -94,7 +94,7 @@ public class Karakter {
 // 4 tip belirlendi
 // Boss lord of rings alıntısıdır :)
 
-class goblinKing{
+class greatGoblin{
     int goblinKuvvet = 15;
     int goblinCan = 100;
 }
