@@ -81,7 +81,7 @@ public class Karakter {
     void dinlen(){
         if(can < maxcan){
             can += 15;
-            if(maxcan > 100)
+            if(can > maxcan)
                     can = 100;
             System.out.println("Dinlendiniz, bu durum sizin can değerinizi yükseltti= "+can);
         }
